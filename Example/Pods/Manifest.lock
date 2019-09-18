@@ -1,0 +1,16 @@
+PODS:
+  - CCCircularProgressView-Swift (0.1.0)
+
+DEPENDENCIES:
+  - CCCircularProgressView-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  CCCircularProgressView-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCCircularProgressView-Swift: fc47d83dc6df00260c2a15a95ba45219c147d41b
+
+PODFILE CHECKSUM: 6c5d0cd007573c3244e3bf9d06fe97095c763057
+
+COCOAPODS: 1.7.5

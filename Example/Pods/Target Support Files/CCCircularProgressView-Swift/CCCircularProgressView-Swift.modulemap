@@ -1,0 +1,6 @@
+framework module CCCircularProgressView_Swift {
+  umbrella header "CCCircularProgressView-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

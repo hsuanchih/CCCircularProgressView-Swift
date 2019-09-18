@@ -1,0 +1,22 @@
+{
+  "name": "CCCircularProgressView-Swift",
+  "version": "0.1.0",
+  "summary": "A short description of CCCircularProgressView-Swift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hsuanchih/CCCircularProgressView-Swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hsuanchih": "kelly.chuang@xuenn.com"
+  },
+  "source": {
+    "git": "https://github.com/hsuanchih/CCCircularProgressView-Swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CCCircularProgressView-Swift/Classes/**/*"
+}

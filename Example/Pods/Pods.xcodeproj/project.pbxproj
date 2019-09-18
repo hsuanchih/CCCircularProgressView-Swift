@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A982A0F7CBD08562926E1DD6DA5FD48 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1482EB76E9CFE43948E6F5C3BD829F9B /* ReplaceMe.swift */; };
+		0E325D910A689A0A0F679C9D92E97CBC /* Pods-CCCircularProgressView-Swift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B72A3D712492642FDBB2D08B2744F3E /* Pods-CCCircularProgressView-Swift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		126ADF77A32E291B11ACA931902F5729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4791178E233164E30030F837 /* CCCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791178D233164E30030F837 /* CCCircularProgressView.swift */; };
+		4791179023316D410030F837 /* CCCircularProgressViewCustomisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791178F23316D410030F837 /* CCCircularProgressViewCustomisable.swift */; };
+		4B9BBF78BC5307CE52D69703A103466E /* Pods-CCCircularProgressView-Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C26FE592EC21E899F122FA36463F2B /* Pods-CCCircularProgressView-Swift_Tests-dummy.m */; };
+		5A39DAF6F62205FDB2D416621B6C3F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		62291DBE82CE8D14DC9F44E065536F24 /* CCCircularProgressView-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B278C9BDBD8D7F5A22F7E6BA3DD7A959 /* CCCircularProgressView-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B088681745B538752497C39FAFD32E /* Pods-CCCircularProgressView-Swift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F11A34053724A472E48EEC81786E7D /* Pods-CCCircularProgressView-Swift_Example-dummy.m */; };
+		A6AD10FAF483C0403B0F0E45A182917F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D16C1A3DACE0DC89B364EB5A1DF77759 /* CCCircularProgressView-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88458A5449013D747CADDF5FCC28C61D /* CCCircularProgressView-Swift-dummy.m */; };
+		FD3053BAEC1AA5EB190467FBF9903FB4 /* Pods-CCCircularProgressView-Swift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3F9AA7AC77CD546DDADCABDE57C8DC /* Pods-CCCircularProgressView-Swift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		382BF2B9FC99AB453DCD795CAAA39063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEAABE262CEB63CC5EFB9C1F4D9291A;
+			remoteInfo = "Pods-CCCircularProgressView-Swift_Example";
+		};
+		77966789234AE01A20BB2E7EE6EF30E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76964A59ED4F431B81A17ED483BF88D8;
+			remoteInfo = "CCCircularProgressView-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01420D116CA02FC7FFF241377688D616 /* CCCircularProgressView-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCCircularProgressView-Swift-prefix.pch"; sourceTree = "<group>"; };
+		08DFFB179C010B1D3432194A57CEADEC /* CCCircularProgressView_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCCircularProgressView_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		124EAF7248F975EFE5E9FC45B004F9E7 /* Pods-CCCircularProgressView-Swift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCCircularProgressView-Swift_Example-Info.plist"; sourceTree = "<group>"; };
+		12D48DF9530750DC140407387EDDB19B /* Pods-CCCircularProgressView-Swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCCircularProgressView-Swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1482EB76E9CFE43948E6F5C3BD829F9B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "CCCircularProgressView-Swift/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		1A15E500F087F903E4D9DE6562D06B14 /* Pods-CCCircularProgressView-Swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCCircularProgressView-Swift_Tests.modulemap"; sourceTree = "<group>"; };
+		2D4C08AB19B0B95045B32B1D414029F1 /* Pods-CCCircularProgressView-Swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCCircularProgressView-Swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AAC5CAD3626CD6FDF2C9121ACF2F2A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		43D6A4C3106B6013CDF064949312B082 /* Pods-CCCircularProgressView-Swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCCircularProgressView-Swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46C26FE592EC21E899F122FA36463F2B /* Pods-CCCircularProgressView-Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCCircularProgressView-Swift_Tests-dummy.m"; sourceTree = "<group>"; };
+		4791178D233164E30030F837 /* CCCircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCCircularProgressView.swift; sourceTree = "<group>"; };
+		4791178F23316D410030F837 /* CCCircularProgressViewCustomisable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCCircularProgressViewCustomisable.swift; sourceTree = "<group>"; };
+		646BB124456AFB46D8F64E8EACEB01A0 /* Pods-CCCircularProgressView-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCCircularProgressView-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		66934547D91FB6838B633205855BF2F6 /* Pods-CCCircularProgressView-Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCCircularProgressView-Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F3F9AA7AC77CD546DDADCABDE57C8DC /* Pods-CCCircularProgressView-Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCCircularProgressView-Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		707C2FCC9973448015546E57F88D08D9 /* CCCircularProgressView-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "CCCircularProgressView-Swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		734EE8FBFAB816896AA3975829156021 /* Pods-CCCircularProgressView-Swift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCCircularProgressView-Swift_Tests-Info.plist"; sourceTree = "<group>"; };
+		7973299AE06BB784E249F1AB690E3B87 /* CCCircularProgressView-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CCCircularProgressView-Swift.xcconfig"; sourceTree = "<group>"; };
+		7B72A3D712492642FDBB2D08B2744F3E /* Pods-CCCircularProgressView-Swift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCCircularProgressView-Swift_Example-umbrella.h"; sourceTree = "<group>"; };
+		7D47EE01795D163CFC1B69D932AD92F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8184B117FCFDBFF2BBD3421FAB9AEE7F /* CCCircularProgressView-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCCircularProgressView-Swift-Info.plist"; sourceTree = "<group>"; };
+		88458A5449013D747CADDF5FCC28C61D /* CCCircularProgressView-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCCircularProgressView-Swift-dummy.m"; sourceTree = "<group>"; };
+		9BE4AE7FC037C2A50596DB4504E7220A /* Pods-CCCircularProgressView-Swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCCircularProgressView-Swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01EC917AC254A39B0F284FF152DC093 /* Pods-CCCircularProgressView-Swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCCircularProgressView-Swift_Example.modulemap"; sourceTree = "<group>"; };
+		B1F11A34053724A472E48EEC81786E7D /* Pods-CCCircularProgressView-Swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCCircularProgressView-Swift_Example-dummy.m"; sourceTree = "<group>"; };
+		B278C9BDBD8D7F5A22F7E6BA3DD7A959 /* CCCircularProgressView-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCCircularProgressView-Swift-umbrella.h"; sourceTree = "<group>"; };
+		BBDEADAFFF2FA9A13DEA7880D8BCFFB9 /* Pods-CCCircularProgressView-Swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCCircularProgressView-Swift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C5C3DE86A5EA151791218CE26DC32553 /* Pods_CCCircularProgressView_Swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCCircularProgressView_Swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AC72A4E2C3FEFADCD669A219777E9A /* Pods-CCCircularProgressView-Swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCCircularProgressView-Swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E0EBA4DDCAA0F6D7E3E59BCCE5866823 /* CCCircularProgressView-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CCCircularProgressView-Swift.modulemap"; sourceTree = "<group>"; };
+		F4CAE61C10AA70239F18DFD4D234080B /* Pods_CCCircularProgressView_Swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCCircularProgressView_Swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC64C0C7BBC33542BFF01A13EFD88830 /* Pods-CCCircularProgressView-Swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCCircularProgressView-Swift_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530CF93EC6D836E8BE93DBBE0796202A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AD10FAF483C0403B0F0E45A182917F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E53149FDD8BF6139A86D64655DDA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126ADF77A32E291B11ACA931902F5729 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DD9FDBBE143B7692F5A8FFCFD24042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A39DAF6F62205FDB2D416621B6C3F06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18517234A5F9729404E6DDF4992CDD99 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18EC3B0535AD2A4544B80C215F2F1A2E /* CCCircularProgressView-Swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		18EC3B0535AD2A4544B80C215F2F1A2E /* CCCircularProgressView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				1482EB76E9CFE43948E6F5C3BD829F9B /* ReplaceMe.swift */,
+				59F70B910D1BDB7672994E2D653BB4C8 /* Pod */,
+				40F7DBA509D5C60EC0197F5DD8509744 /* Support Files */,
+				4791178D233164E30030F837 /* CCCircularProgressView.swift */,
+				4791178F23316D410030F837 /* CCCircularProgressViewCustomisable.swift */,
+			);
+			name = "CCCircularProgressView-Swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		40F7DBA509D5C60EC0197F5DD8509744 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0EBA4DDCAA0F6D7E3E59BCCE5866823 /* CCCircularProgressView-Swift.modulemap */,
+				7973299AE06BB784E249F1AB690E3B87 /* CCCircularProgressView-Swift.xcconfig */,
+				88458A5449013D747CADDF5FCC28C61D /* CCCircularProgressView-Swift-dummy.m */,
+				8184B117FCFDBFF2BBD3421FAB9AEE7F /* CCCircularProgressView-Swift-Info.plist */,
+				01420D116CA02FC7FFF241377688D616 /* CCCircularProgressView-Swift-prefix.pch */,
+				B278C9BDBD8D7F5A22F7E6BA3DD7A959 /* CCCircularProgressView-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCCircularProgressView-Swift";
+			sourceTree = "<group>";
+		};
+		43F722CAD7C18D0C6773E874E0A89799 /* Pods-CCCircularProgressView-Swift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A15E500F087F903E4D9DE6562D06B14 /* Pods-CCCircularProgressView-Swift_Tests.modulemap */,
+				66934547D91FB6838B633205855BF2F6 /* Pods-CCCircularProgressView-Swift_Tests-acknowledgements.markdown */,
+				9BE4AE7FC037C2A50596DB4504E7220A /* Pods-CCCircularProgressView-Swift_Tests-acknowledgements.plist */,
+				46C26FE592EC21E899F122FA36463F2B /* Pods-CCCircularProgressView-Swift_Tests-dummy.m */,
+				734EE8FBFAB816896AA3975829156021 /* Pods-CCCircularProgressView-Swift_Tests-Info.plist */,
+				6F3F9AA7AC77CD546DDADCABDE57C8DC /* Pods-CCCircularProgressView-Swift_Tests-umbrella.h */,
+				2D4C08AB19B0B95045B32B1D414029F1 /* Pods-CCCircularProgressView-Swift_Tests.debug.xcconfig */,
+				43D6A4C3106B6013CDF064949312B082 /* Pods-CCCircularProgressView-Swift_Tests.release.xcconfig */,
+			);
+			name = "Pods-CCCircularProgressView-Swift_Tests";
+			path = "Target Support Files/Pods-CCCircularProgressView-Swift_Tests";
+			sourceTree = "<group>";
+		};
+		59F70B910D1BDB7672994E2D653BB4C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				707C2FCC9973448015546E57F88D08D9 /* CCCircularProgressView-Swift.podspec */,
+				7D47EE01795D163CFC1B69D932AD92F4 /* LICENSE */,
+				3AAC5CAD3626CD6FDF2C9121ACF2F2A2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		653911237765DB990AE7B2DA33176290 /* Pods-CCCircularProgressView-Swift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A01EC917AC254A39B0F284FF152DC093 /* Pods-CCCircularProgressView-Swift_Example.modulemap */,
+				12D48DF9530750DC140407387EDDB19B /* Pods-CCCircularProgressView-Swift_Example-acknowledgements.markdown */,
+				646BB124456AFB46D8F64E8EACEB01A0 /* Pods-CCCircularProgressView-Swift_Example-acknowledgements.plist */,
+				B1F11A34053724A472E48EEC81786E7D /* Pods-CCCircularProgressView-Swift_Example-dummy.m */,
+				BBDEADAFFF2FA9A13DEA7880D8BCFFB9 /* Pods-CCCircularProgressView-Swift_Example-frameworks.sh */,
+				124EAF7248F975EFE5E9FC45B004F9E7 /* Pods-CCCircularProgressView-Swift_Example-Info.plist */,
+				7B72A3D712492642FDBB2D08B2744F3E /* Pods-CCCircularProgressView-Swift_Example-umbrella.h */,
+				D7AC72A4E2C3FEFADCD669A219777E9A /* Pods-CCCircularProgressView-Swift_Example.debug.xcconfig */,
+				FC64C0C7BBC33542BFF01A13EFD88830 /* Pods-CCCircularProgressView-Swift_Example.release.xcconfig */,
+			);
+			name = "Pods-CCCircularProgressView-Swift_Example";
+			path = "Target Support Files/Pods-CCCircularProgressView-Swift_Example";
+			sourceTree = "<group>";
+		};
+		A20624510B0E2F5DE94324222FA844E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08DFFB179C010B1D3432194A57CEADEC /* CCCircularProgressView_Swift.framework */,
+				F4CAE61C10AA70239F18DFD4D234080B /* Pods_CCCircularProgressView_Swift_Example.framework */,
+				C5C3DE86A5EA151791218CE26DC32553 /* Pods_CCCircularProgressView_Swift_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1CFCB09CA9BB76A50E80C42D51EB650 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				653911237765DB990AE7B2DA33176290 /* Pods-CCCircularProgressView-Swift_Example */,
+				43F722CAD7C18D0C6773E874E0A89799 /* Pods-CCCircularProgressView-Swift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				18517234A5F9729404E6DDF4992CDD99 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A20624510B0E2F5DE94324222FA844E7 /* Products */,
+				C1CFCB09CA9BB76A50E80C42D51EB650 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66DC69DD7D1CFDA51B1DF9647ADB4EFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62291DBE82CE8D14DC9F44E065536F24 /* CCCircularProgressView-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9433C98B73EE0A38AB40A89816FE1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E325D910A689A0A0F679C9D92E97CBC /* Pods-CCCircularProgressView-Swift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65C1250307DDF45A774052D9F6DC997 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3053BAEC1AA5EB190467FBF9903FB4 /* Pods-CCCircularProgressView-Swift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AEAABE262CEB63CC5EFB9C1F4D9291A /* Pods-CCCircularProgressView-Swift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FBCA7A28D5CE61BA8066CDDFFE3D55 /* Build configuration list for PBXNativeTarget "Pods-CCCircularProgressView-Swift_Example" */;
+			buildPhases = (
+				DA9433C98B73EE0A38AB40A89816FE1B /* Headers */,
+				92D7FC3D87D389907F0EECDCC3A7F4A8 /* Sources */,
+				A1E53149FDD8BF6139A86D64655DDA91 /* Frameworks */,
+				2386B49B11DD7C30E3C177B374C61249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08C0256691CE4139365145829DB878BA /* PBXTargetDependency */,
+			);
+			name = "Pods-CCCircularProgressView-Swift_Example";
+			productName = "Pods-CCCircularProgressView-Swift_Example";
+			productReference = F4CAE61C10AA70239F18DFD4D234080B /* Pods_CCCircularProgressView_Swift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76964A59ED4F431B81A17ED483BF88D8 /* CCCircularProgressView-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813A31A3473ECF224E8DA2C7CEC4D336 /* Build configuration list for PBXNativeTarget "CCCircularProgressView-Swift" */;
+			buildPhases = (
+				66DC69DD7D1CFDA51B1DF9647ADB4EFF /* Headers */,
+				41A9B5666E6AF85EF204D53895F3AA0C /* Sources */,
+				530CF93EC6D836E8BE93DBBE0796202A /* Frameworks */,
+				D88B1A2CE62EDC1DD79A8F22CBEBD13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCCircularProgressView-Swift";
+			productName = "CCCircularProgressView-Swift";
+			productReference = 08DFFB179C010B1D3432194A57CEADEC /* CCCircularProgressView_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A49FCFD07161F87B88BFC59639BED75E /* Pods-CCCircularProgressView-Swift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADECA39C7E677D68E5A0A4D96563F975 /* Build configuration list for PBXNativeTarget "Pods-CCCircularProgressView-Swift_Tests" */;
+			buildPhases = (
+				E65C1250307DDF45A774052D9F6DC997 /* Headers */,
+				331E0308687EDF2895570BC7E59CFF41 /* Sources */,
+				D3DD9FDBBE143B7692F5A8FFCFD24042 /* Frameworks */,
+				46C408E038F2310C41CF0B671B8117C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C3B6434F19E0808145114144C9DDE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCCircularProgressView-Swift_Tests";
+			productName = "Pods-CCCircularProgressView-Swift_Tests";
+			productReference = C5C3DE86A5EA151791218CE26DC32553 /* Pods_CCCircularProgressView_Swift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A20624510B0E2F5DE94324222FA844E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76964A59ED4F431B81A17ED483BF88D8 /* CCCircularProgressView-Swift */,
+				4AEAABE262CEB63CC5EFB9C1F4D9291A /* Pods-CCCircularProgressView-Swift_Example */,
+				A49FCFD07161F87B88BFC59639BED75E /* Pods-CCCircularProgressView-Swift_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2386B49B11DD7C30E3C177B374C61249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C408E038F2310C41CF0B671B8117C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88B1A2CE62EDC1DD79A8F22CBEBD13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331E0308687EDF2895570BC7E59CFF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9BBF78BC5307CE52D69703A103466E /* Pods-CCCircularProgressView-Swift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A9B5666E6AF85EF204D53895F3AA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4791178E233164E30030F837 /* CCCircularProgressView.swift in Sources */,
+				4791179023316D410030F837 /* CCCircularProgressViewCustomisable.swift in Sources */,
+				D16C1A3DACE0DC89B364EB5A1DF77759 /* CCCircularProgressView-Swift-dummy.m in Sources */,
+				0A982A0F7CBD08562926E1DD6DA5FD48 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D7FC3D87D389907F0EECDCC3A7F4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B088681745B538752497C39FAFD32E /* Pods-CCCircularProgressView-Swift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08C0256691CE4139365145829DB878BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CCCircularProgressView-Swift";
+			target = 76964A59ED4F431B81A17ED483BF88D8 /* CCCircularProgressView-Swift */;
+			targetProxy = 77966789234AE01A20BB2E7EE6EF30E8 /* PBXContainerItemProxy */;
+		};
+		86C3B6434F19E0808145114144C9DDE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCCircularProgressView-Swift_Example";
+			target = 4AEAABE262CEB63CC5EFB9C1F4D9291A /* Pods-CCCircularProgressView-Swift_Example */;
+			targetProxy = 382BF2B9FC99AB453DCD795CAAA39063 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		011E4FAED5B3A60C0D5FF4F7FE552218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D6A4C3106B6013CDF064949312B082 /* Pods-CCCircularProgressView-Swift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCCircularProgressView-Swift_Tests/Pods-CCCircularProgressView-Swift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCCircularProgressView-Swift_Tests/Pods-CCCircularProgressView-Swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73EFBE9CC85D383BC92CE7B1DFBEDB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7973299AE06BB784E249F1AB690E3B87 /* CCCircularProgressView-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCCircularProgressView-Swift/CCCircularProgressView-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCCircularProgressView-Swift/CCCircularProgressView-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCCircularProgressView-Swift/CCCircularProgressView-Swift.modulemap";
+				PRODUCT_MODULE_NAME = CCCircularProgressView_Swift;
+				PRODUCT_NAME = CCCircularProgressView_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A21D9338E240FF0280EBE670D27C49D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7973299AE06BB784E249F1AB690E3B87 /* CCCircularProgressView-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCCircularProgressView-Swift/CCCircularProgressView-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCCircularProgressView-Swift/CCCircularProgressView-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCCircularProgressView-Swift/CCCircularProgressView-Swift.modulemap";
+				PRODUCT_MODULE_NAME = CCCircularProgressView_Swift;
+				PRODUCT_NAME = CCCircularProgressView_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C825E69B40E2732B0BC64EB37C04F75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC64C0C7BBC33542BFF01A13EFD88830 /* Pods-CCCircularProgressView-Swift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCCircularProgressView-Swift_Example/Pods-CCCircularProgressView-Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCCircularProgressView-Swift_Example/Pods-CCCircularProgressView-Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E24A63EDE546AE3EFC18F5C4B50D3AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7AC72A4E2C3FEFADCD669A219777E9A /* Pods-CCCircularProgressView-Swift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCCircularProgressView-Swift_Example/Pods-CCCircularProgressView-Swift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCCircularProgressView-Swift_Example/Pods-CCCircularProgressView-Swift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB4A0BB0B8931652D6E8697C96F7C025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4C08AB19B0B95045B32B1D414029F1 /* Pods-CCCircularProgressView-Swift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CCCircularProgressView-Swift_Tests/Pods-CCCircularProgressView-Swift_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCCircularProgressView-Swift_Tests/Pods-CCCircularProgressView-Swift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56FBCA7A28D5CE61BA8066CDDFFE3D55 /* Build configuration list for PBXNativeTarget "Pods-CCCircularProgressView-Swift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24A63EDE546AE3EFC18F5C4B50D3AB7 /* Debug */,
+				C825E69B40E2732B0BC64EB37C04F75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813A31A3473ECF224E8DA2C7CEC4D336 /* Build configuration list for PBXNativeTarget "CCCircularProgressView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21D9338E240FF0280EBE670D27C49D2 /* Debug */,
+				73EFBE9CC85D383BC92CE7B1DFBEDB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADECA39C7E677D68E5A0A4D96563F975 /* Build configuration list for PBXNativeTarget "Pods-CCCircularProgressView-Swift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4A0BB0B8931652D6E8697C96F7C025 /* Debug */,
+				011E4FAED5B3A60C0D5FF4F7FE552218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
