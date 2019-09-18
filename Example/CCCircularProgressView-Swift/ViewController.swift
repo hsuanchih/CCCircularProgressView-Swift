@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
     @IBOutlet weak var progressLabel : UILabel! {
         didSet {
-            progressLabel.text = "\(count)%"
+            progressLabel.text = "\(Int(count))%"
         }
     }
     private var count : CGFloat = 0
