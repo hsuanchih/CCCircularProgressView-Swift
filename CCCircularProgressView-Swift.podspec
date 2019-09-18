@@ -16,7 +16,6 @@ CCCircularProgressView-Swift is a circular progress view written in Swift, becau
                        DESC
 
   s.homepage         = 'https://github.com/hsuanchih/CCCircularProgressView-Swift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hsuan-Chih Chuang' => 'hsuanchih.chuang@gmail.com' }
   s.source           = { :git => 'https://github.com/hsuanchih/CCCircularProgressView-Swift.git', :tag => s.version.to_s }

@@ -11,6 +11,8 @@
 		126ADF77A32E291B11ACA931902F5729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4791178E233164E30030F837 /* CCCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791178D233164E30030F837 /* CCCircularProgressView.swift */; };
 		4791179023316D410030F837 /* CCCircularProgressViewCustomisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791178F23316D410030F837 /* CCCircularProgressViewCustomisable.swift */; };
+		479117932331C7D10030F837 /* CCCircularProgressViewCustomisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479117912331C7D00030F837 /* CCCircularProgressViewCustomisable.swift */; };
+		479117942331C7D10030F837 /* CCCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479117922331C7D10030F837 /* CCCircularProgressView.swift */; };
 		4B9BBF78BC5307CE52D69703A103466E /* Pods-CCCircularProgressView-Swift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C26FE592EC21E899F122FA36463F2B /* Pods-CCCircularProgressView-Swift_Tests-dummy.m */; };
 		5A39DAF6F62205FDB2D416621B6C3F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		62291DBE82CE8D14DC9F44E065536F24 /* CCCircularProgressView-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B278C9BDBD8D7F5A22F7E6BA3DD7A959 /* CCCircularProgressView-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,6 +52,8 @@
 		46C26FE592EC21E899F122FA36463F2B /* Pods-CCCircularProgressView-Swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCCircularProgressView-Swift_Tests-dummy.m"; sourceTree = "<group>"; };
 		4791178D233164E30030F837 /* CCCircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCCircularProgressView.swift; sourceTree = "<group>"; };
 		4791178F23316D410030F837 /* CCCircularProgressViewCustomisable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCCircularProgressViewCustomisable.swift; sourceTree = "<group>"; };
+		479117912331C7D00030F837 /* CCCircularProgressViewCustomisable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CCCircularProgressViewCustomisable.swift; path = "CCCircularProgressView-Swift/Classes/CCCircularProgressViewCustomisable.swift"; sourceTree = "<group>"; };
+		479117922331C7D10030F837 /* CCCircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CCCircularProgressView.swift; path = "CCCircularProgressView-Swift/Classes/CCCircularProgressView.swift"; sourceTree = "<group>"; };
 		646BB124456AFB46D8F64E8EACEB01A0 /* Pods-CCCircularProgressView-Swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCCircularProgressView-Swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		66934547D91FB6838B633205855BF2F6 /* Pods-CCCircularProgressView-Swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCCircularProgressView-Swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6F3F9AA7AC77CD546DDADCABDE57C8DC /* Pods-CCCircularProgressView-Swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCCircularProgressView-Swift_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 		18EC3B0535AD2A4544B80C215F2F1A2E /* CCCircularProgressView-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				479117922331C7D10030F837 /* CCCircularProgressView.swift */,
+				479117912331C7D00030F837 /* CCCircularProgressViewCustomisable.swift */,
 				59F70B910D1BDB7672994E2D653BB4C8 /* Pod */,
 				40F7DBA509D5C60EC0197F5DD8509744 /* Support Files */,
 				4791178D233164E30030F837 /* CCCircularProgressView.swift */,
@@ -376,6 +382,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4791178E233164E30030F837 /* CCCircularProgressView.swift in Sources */,
+				479117932331C7D10030F837 /* CCCircularProgressViewCustomisable.swift in Sources */,
+				479117942331C7D10030F837 /* CCCircularProgressView.swift in Sources */,
 				4791179023316D410030F837 /* CCCircularProgressViewCustomisable.swift in Sources */,
 				D16C1A3DACE0DC89B364EB5A1DF77759 /* CCCircularProgressView-Swift-dummy.m in Sources */,
 			);
